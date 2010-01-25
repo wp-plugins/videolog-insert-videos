@@ -1,4 +1,4 @@
-=== Insert Videos Videolog ===
+=== Embed Videolog Videos ===
 Contributors: brunodulcetti
 Tags: videos, videolog
 Requires at least: 2.5
@@ -9,19 +9,18 @@ Put videos of Portal Videolog.tv on WordPress with shortcodes
 
 == Description ==
 
-Videolog.tv ia a first portal of videos. Since 2004, before Youtube and Vimeo.
+Videolog.tv is the world's first video sharing website - since 2004, before Youtube and Vimeo - and is Brazil's largest video community. Follow these steps to easily embed videolog HD or SD videos into your Wordpress posts:
 
-Follow the next steps for add videos into your posts:
-
-*   Insert the prefix [videolog 
-*   For take the ID of video, go to URL of Video, ex: http://www.videolog.tv/video.php?id=123456 and get the ID (in this case, 123456)
-*   Insert the ID of video in Videolog.tv, ex: 123456.
-*   Complete the prefix of first step [videolog 123456]
-*   (Optional) Put the parameter `width` and/or `height` after the ID of video [videolog 123456 width=600], [videolog 123456 height=400] [videolog 123456 width=600 height=400]
-*   If you put only the width or only height, width or height, respectively, will be resized
+* Type the videolog tag `[videolog ` (remove the quotes)
+* Retrieve the video ID from the id parameter in the video URL, e.g.: in `http://www.videolog.tv/video.php?id=123456`, the video ID is `123456`
+* Append the video ID to the video tag and close brackets, like in `[videolog 123456]`
+* Optional: configure width and height. If you choose only one, the video aspect ration will be kept. 
+[videolog 123456 width=320]
+[videolog 123456 height=240]
+[videolog 123456 width=640 height=480]
 
 == Installation ==
 
 1. Upload `videolog_insert.php` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. After, place `[videolog ID_Video` in your posts
+1. After, place `[videolog ID_Video]` in your posts
