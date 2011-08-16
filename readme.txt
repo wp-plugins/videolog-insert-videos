@@ -2,8 +2,8 @@
 Contributors: brunodulcetti
 Tags: videos, videolog
 Requires at least: 2.5
-Tested up to: 2.8.5
-Stable tag: 1
+Tested up to: 3.1
+Stable tag: 1.1
 
 Put videos of Portal Videolog.tv on WordPress with shortcodes
 
