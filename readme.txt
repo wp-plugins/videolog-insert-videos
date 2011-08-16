@@ -1,6 +1,6 @@
 === Embed Videolog Videos ===
-Contributors: brunodulcetti
-Tags: videos, videolog
+Contributors: Bruno Dulcetti
+Tags: videos, videolog, embeds, player, flash
 Requires at least: 2.5
 Tested up to: 3.1
 Stable tag: 1.1
