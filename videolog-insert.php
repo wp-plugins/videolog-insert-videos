@@ -23,14 +23,9 @@ function videolog_callback($atts, $content=null) {
 		$width = 500;
 		$height = 375;
 	endif;
-
-	return	"<object width='$width' height='$height'>".
-			"<param name='allowfullscreen' value='true' />".
-			"<param name='allowscriptaccess' value='always' />".
-			"<param name='movie' value='http://www.videolog.tv/ajax/codigoPlayer.php?id_video=$id_video&amp;relacionados=S&amp;default=S&amp;hd=S&amp;swf=1&amp;width=$width&amp;height=$height' />".
-			"<embed src='http://www.videolog.tv/ajax/codigoPlayer.php?id_video=$id_video&amp;relacionados=S&amp;default=S&amp;&hd=S&amp;swf=1&amp;width=$width&amp;height=$height' type='application/x-shockwave-flash' allowfullscreen='true' allowscriptaccess='always' width='$width' height='$height'></embed>".
-			"</object>".
-			"<p><a href='http://www.videolog.tv/video?$id_video'>Veja o Video no Videolog.tv</a>.</p>";
+	
+	return	'<iframe width="$width" height="$height" src="http://www.videolog.tv/v/index.php?id_video=$id_video" scrolling="no" frameborder="0" allowfullscreen></iframe>'.
+			'<p><a href="http://www.videolog.tv/video?$id_video">Veja o Video no Videolog.tv</a>.</p>';
 }
 
 add_shortcode('videolog', 'videolog_callback');
