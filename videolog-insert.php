@@ -21,7 +21,7 @@ function videolog_callback($atts, $content=null) {
 	if (!$height && $width) $height = intval($width * 3 / 4);
 	if (!$height && !$width) :
 		$width = 500;
-		$height = 375;
+		$height = 281;
 	endif;
 	
 	return	'<iframe width="' . $width . '" height="' . $height . '" src="http://www.videolog.tv/v/index.php?id_video=' . $id_video . '" scrolling="no" frameborder="0" allowfullscreen></iframe>'.
