@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Videolog Insert Videos
-Version: 1.1
+Version: 1.1.1
 Plugin URI: http://www.videolog.tv/blog/?p=458
 Author: Videolog Technology Team
 Author URI: http://www.videolog.tv/blog/
