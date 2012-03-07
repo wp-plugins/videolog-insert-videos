@@ -24,7 +24,7 @@ function videolog_callback($atts, $content=null) {
 		$height = 281;
 	endif;
 	
-	return	'<iframe width="' . $width . '" height="' . $height . '" src="http://www.videolog.tv/v/index.php?id_video=' . $id_video . '" scrolling="no" frameborder="0" allowfullscreen></iframe>'.
+	return	'<iframe width="' . $width . '" height="' . $height . '" src="http://embed.videolog.tv/v/index.php?id_video=' . $id_video . '&amp;width=' . $width . '&amp;height=' . $height . '" scrolling="no" frameborder="0" allowfullscreen></iframe>'.
 			'<p><a href="http://www.videolog.tv/video?' . $id_video . '">Veja o Video no Videolog.tv</a>.</p>';
 }
 
