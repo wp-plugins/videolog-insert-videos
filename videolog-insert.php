@@ -1,8 +1,8 @@
 <?php
 /*
 Plugin Name: Videolog Insert Videos
-Version: 1.1.1
-Plugin URI: http://www.videolog.tv/blog/?p=458
+Version: 1.1.3
+Plugin URI: http://blog.videolog.tv/?p=458
 Author: Videolog Technology Team
 Author URI: http://www.videolog.tv/blog/
 Description: Put videos of Portal Videolog.tv on WordPress with shortcodes
